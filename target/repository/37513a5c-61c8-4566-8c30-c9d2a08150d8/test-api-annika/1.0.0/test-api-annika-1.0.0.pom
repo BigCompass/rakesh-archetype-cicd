@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>37513a5c-61c8-4566-8c30-c9d2a08150d8</groupId>
+  <artifactId>test-api-annika</artifactId>
+  <version>1.0.0</version>
+  <name>Test API - Annika</name>
+  <properties>
+    <classifier>raml</classifier>
+    <main>api.raml</main>
+    <status>published</status>
+    <originalFormatVersion>1.0</originalFormatVersion>
+    <apiVersion>v1.0</apiVersion>
+    <projectId>335ef520-d436-42c8-ab47-a5b497b4bbb0</projectId>
+    <branchId>1.0.0</branchId>
+    <commitId>33196b7b95c613d47e3ff3aee6caa30a28d6e949</commitId>
+    <keywords/>
+    <type>rest-api</type>
+    <mainFile>api.raml</mainFile>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>37513a5c-61c8-4566-8c30-c9d2a08150d8</groupId>
+      <version>1.0.0</version>
+      <type>zip</type>
+      <classifier>raml-fragment</classifier>
+      <artifactId>common-library</artifactId>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+    </repository>
+  </repositories>
+</project>

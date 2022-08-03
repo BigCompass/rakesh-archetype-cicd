@@ -1,0 +1,44 @@
+{
+  "configs": [
+    "operations/get-health-check.xml",
+    "operations/get-ping.xml",
+    "error.xml",
+    "global.xml",
+    "operations/variable-cleanup.xml",
+    "api.xml"
+  ],
+  "secureProperties": [
+    "secure.key",
+    "anypoint.platform.client_id",
+    "anypoint.platform.client_secret"
+  ],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:rakesh-archetype-22:1.0.0",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api.xml",
+        "error.xml",
+        "global.xml",
+        "operations/get-health-check.xml",
+        "operations/get-ping.xml",
+        "operations/variable-cleanup.xml",
+        "properties/common-config.yaml",
+        "properties/dev-config.yaml",
+        "properties/dev-secure-config.yaml",
+        "properties/prod-config.yaml",
+        "properties/prod-secure-config.yaml",
+        "properties/test-config.yaml",
+        "properties/test-secure-config.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
