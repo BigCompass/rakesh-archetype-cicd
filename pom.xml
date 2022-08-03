@@ -34,7 +34,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<applicationName>rakesh-archetype-22-CICD-BC</applicationName>
+						<applicationName>sandbox-archetype-CICD-BC</applicationName>
 						<connectedAppClientId>5e1c0dcf689d475d8fe0f7f7187883dd</connectedAppClientId>
 						<connectedAppClientSecret>1B649363257A4c048Da2bc9553838199</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
