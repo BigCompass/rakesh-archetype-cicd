@@ -36,7 +36,9 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<applicationName>rakesh-archetype-22</applicationName>
+						<username>BC-Service-Account</username>
+						<password>B1gCompa$$</password>
+						<applicationName>sandbox-archetype-cicd-bc</applicationName>
 						<connectedAppClientId>5e1c0dcf689d475d8fe0f7f7187883dd</connectedAppClientId>
 						<connectedAppClientSecret>1B649363257A4c048Da2bc9553838199</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
@@ -85,25 +87,6 @@
 			<artifactId>mule-sockets-connector</artifactId>
 			<version>1.2.2</version>
 			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.mule.modules</groupId>
-			<artifactId>mule-apikit-module</artifactId>
-			<version>1.5.11</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>com.mulesoft.modules</groupId>
-			<artifactId>mule-secure-configuration-property-module</artifactId>
-			<version>1.2.3</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>37513a5c-61c8-4566-8c30-c9d2a08150d8</groupId>
-			<artifactId>test-api-annika</artifactId>
-			<version>1.0.0</version>
-			<classifier>raml</classifier>
-			<type>zip</type>
 		</dependency>
 	</dependencies>
 
